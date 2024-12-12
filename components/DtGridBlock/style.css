@@ -1,0 +1,9 @@
+.table-container {
+    height: calc(100vh - var(--content-on-page,64vh));
+    display: flex;
+    flex-direction: column;
+}
+
+.table-container > .tabulator {
+    flex-grow: 1;
+}

@@ -1,0 +1,25 @@
+<extends src="partials/layout.html">
+    <script locals>
+		module.exports = {
+			title: 'Data visualisation project',
+		};
+    </script>
+    <block name="head">
+        <title>{{title}}</title>
+    </block>
+    <block name="content">
+        <div class="container my-5">
+            <include src="partials/page_header.html">
+                {"text": "{{title}}"}
+            </include>
+            </include>
+            <div class="grid">
+                <article><a href="/wasm-browser-performance">WASM performance in browsers</a></article>
+            </div>
+            <div class="grid">
+                <article><a class="secondary" href="/about">About</a></article>
+            </div>
+        </div>
+        <script type="module" src="index.ts"></script>
+    </block>
+</extends>

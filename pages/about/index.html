@@ -1,0 +1,22 @@
+<extends src="partials/layout.html">
+    <script locals>
+		module.exports = {
+			title: 'About data visualisation project',
+		};
+    </script>
+    <block name="head">
+        <title>{{title}}</title>
+    </block>
+    <block name="content">
+        <div class="container my-5 w-75">
+            <include src="partials/page_header.html">
+                {"text": "{{title}}"}
+            </include>
+            <markdown>
+                Hi. I always wanted to make benchmarks (_even micro-benchmarks_) and then preset results in a simple way.
+                The Current site is a set of small and simple benchmarks results. I hope you will find it useful.
+            </markdown>
+        </div>
+        <script type="module" src="index.ts"></script>
+    </block>
+</extends>

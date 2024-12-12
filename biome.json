@@ -1,0 +1,71 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+	"files": {
+		"include": [
+			"./assets/**/*.scss",
+			"./components/**/*.js",
+			"./components/**/*.jsx",
+			"./components/**/*.ts",
+			"./components/**/*.tsx",
+			"./components/**/*.scss",
+			"./lib/**/*.js",
+			"./lib/**/*.jsx",
+			"./lib/**/*.ts",
+			"./lib/**/*.tsx",
+			"./lib/**/*.scss",
+			"./pages/**/*.html",
+			"./pages/**/*.scss",
+			"./pages/**/*.js",
+			"./pages/**/*.jsx",
+			"./pages/**/*.ts",
+			"./pages/**/*.tsx",
+			"./pages/**/*.json",
+			"./pages/**/*.json5",
+			"./partials/**/*.html"
+		],
+		"ignoreUnknown": false,
+		"ignore": [
+			"node_modules",
+			"dist",
+			"docs",
+			".parcel-cache",
+			"parcel-bundle-reports"
+		]
+	},
+	"vcs": {
+		"enabled": false,
+		"clientKind": "git",
+		"useIgnoreFile": true,
+		"defaultBranch": "main"
+	},
+	"organizeImports": {
+		"enabled": true
+	},
+	"formatter": {
+		"enabled": true,
+		"indentStyle": "tab"
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true,
+			"suspicious": {
+				"noArrayIndexKey": "off"
+			},
+			"performance": {
+				"noDelete": "off"
+			}
+		}
+	},
+	"javascript": {
+		"formatter": {
+			"quoteStyle": "single",
+			"trailingCommas": "all"
+		}
+	},
+	"json": {
+		"formatter": {
+			"trailingCommas": "none"
+		}
+	}
+}
