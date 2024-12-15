@@ -1,0 +1,19 @@
+<extends src="partials/layout.html">
+    <script locals>
+		module.exports = {
+			title: 'SQLite performance',
+		};
+    </script>
+    <block name="head">
+        <title>{{title}}</title>
+    </block>
+    <block name="content">
+        <div class="container my-3">
+            <include src="partials/page_header.html">
+                {"text": "{{title}}"}
+            </include>
+            <div id="root"></div>
+        </div>
+        <script type="module" src="src/index.ts"></script>
+    </block>
+</extends>

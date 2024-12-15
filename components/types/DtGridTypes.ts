@@ -98,7 +98,7 @@ export type ChartConfig = {
 	description: string;
 	charts: {
 		type: string;
-		group: string;
+		group: unknown;
 		mapper: string;
 	}[];
 	layout: Partial<Layout>;
@@ -108,4 +108,5 @@ export type ChartBlockProps = {
 	rawData: unknown[];
 	chartMap: Record<string, ChartConfig>;
 	mappers: Record<string, MapperFn>;
+	height?: number;
 };

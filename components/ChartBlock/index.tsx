@@ -1,11 +1,16 @@
-import './style.scss';
 import type { ChartBlockProps } from '$cmp/types/DtGridTypes';
-import { set } from 'lodash-es';
+import { set } from 'lodash';
 import { useEffect, useRef, useState } from 'preact/hooks';
 import Plot from 'react-plotly.js';
 
-export function ChartBlock({ rawData, chartMap, mappers }: ChartBlockProps) {
+export function ChartBlock({
+	rawData,
+	chartMap,
+	mappers,
+	height = 320,
+}: ChartBlockProps) {
 	const chartContainer = useRef(null);
+	const listContainer = useRef(null);
 	const [keyList] = useState(Object.keys(chartMap ?? {}));
 	const [idx, setIdx] = useState(0);
 	const [data, setData] = useState([]);
@@ -24,6 +29,7 @@ export function ChartBlock({ rawData, chartMap, mappers }: ChartBlockProps) {
 		});
 		const newLayout = {
 			...chartMap[key].layout,
+			height,
 			width: chartContainer.current.clientWidth - 16,
 			title: chartMap[key].title,
 			xaxis: { title: chartMap[key].description },
@@ -37,7 +43,7 @@ export function ChartBlock({ rawData, chartMap, mappers }: ChartBlockProps) {
 
 	return (
 		<div class="container container-fluid pb-2">
-			<div class="row chart">
+			<div class="row">
 				<div
 					ref={chartContainer}
 					class="col-9 p-2 d-flex justify-content-center"
@@ -52,7 +58,10 @@ export function ChartBlock({ rawData, chartMap, mappers }: ChartBlockProps) {
 					/>
 				</div>
 				<div class="col-3">
-					<ul class="list-group list-group-flush">
+					<ul
+						class="list-group list-group-flush overflow-y-auto"
+						style={{ maxHeight: height }}
+					>
 						{keyList.map((key, i) => (
 							<li
 								key={key}

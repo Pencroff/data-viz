@@ -1,0 +1,3698 @@
+[
+  {
+    "name": "1_simple",
+    "action": "dbsize",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      117891152,
+      117891152,
+      117891152
+    ],
+    "avg": 117891152,
+    "median": 117891152
+  },
+  {
+    "name": "1_simple",
+    "action": "dbsize",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      117891152,
+      117891152,
+      117891152
+    ],
+    "avg": 117891152,
+    "median": 117891152
+  },
+  {
+    "name": "1_simple",
+    "action": "dbsize",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      117891152,
+      117891152,
+      117891152
+    ],
+    "avg": 117891152,
+    "median": 117891152
+  },
+  {
+    "name": "1_simple",
+    "action": "dbsize",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      117891152,
+      117891152,
+      117891152
+    ],
+    "avg": 117891152,
+    "median": 117891152
+  },
+  {
+    "name": "1_simple",
+    "action": "dbsize",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      117891152,
+      117891152,
+      117891152
+    ],
+    "avg": 117891152,
+    "median": 117891152
+  },
+  {
+    "name": "1_simple",
+    "action": "dbsize",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      117891152,
+      117891152,
+      117891152
+    ],
+    "avg": 117891152,
+    "median": 117891152
+  },
+  {
+    "name": "1_simple",
+    "action": "dbsize",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      117891152,
+      117891152,
+      117891152
+    ],
+    "avg": 117891152,
+    "median": 117891152
+  },
+  {
+    "name": "1_simple",
+    "action": "dbsize",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      117891152,
+      117891152,
+      117891152
+    ],
+    "avg": 117891152,
+    "median": 117891152
+  },
+  {
+    "name": "1_simple",
+    "action": "insert",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      1064,
+      1065,
+      1075
+    ],
+    "avg": 1068,
+    "median": 1065
+  },
+  {
+    "name": "1_simple",
+    "action": "insert",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      980,
+      981,
+      994
+    ],
+    "avg": 985,
+    "median": 981
+  },
+  {
+    "name": "1_simple",
+    "action": "insert",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      3875,
+      3905,
+      3908
+    ],
+    "avg": 3896,
+    "median": 3905
+  },
+  {
+    "name": "1_simple",
+    "action": "insert",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      3308,
+      3350,
+      3544
+    ],
+    "avg": 3400,
+    "median": 3350
+  },
+  {
+    "name": "1_simple",
+    "action": "insert",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      1340,
+      1343,
+      1344
+    ],
+    "avg": 1342,
+    "median": 1343
+  },
+  {
+    "name": "1_simple",
+    "action": "insert",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      3879,
+      3900,
+      3912
+    ],
+    "avg": 3897,
+    "median": 3900
+  },
+  {
+    "name": "1_simple",
+    "action": "insert",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      2051,
+      2055,
+      2112
+    ],
+    "avg": 2072,
+    "median": 2055
+  },
+  {
+    "name": "1_simple",
+    "action": "insert",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      1363,
+      1366,
+      1371
+    ],
+    "avg": 1366,
+    "median": 1366
+  },
+  {
+    "name": "1_simple",
+    "action": "query",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      472,
+      476,
+      487
+    ],
+    "avg": 478,
+    "median": 476
+  },
+  {
+    "name": "1_simple",
+    "action": "query",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      606,
+      611,
+      612
+    ],
+    "avg": 609,
+    "median": 611
+  },
+  {
+    "name": "1_simple",
+    "action": "query",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      956,
+      959,
+      961
+    ],
+    "avg": 958,
+    "median": 959
+  },
+  {
+    "name": "1_simple",
+    "action": "query",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      2493,
+      2498,
+      2517
+    ],
+    "avg": 2502,
+    "median": 2498
+  },
+  {
+    "name": "1_simple",
+    "action": "query",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      975,
+      979,
+      1000
+    ],
+    "avg": 984,
+    "median": 979
+  },
+  {
+    "name": "1_simple",
+    "action": "query",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      964,
+      967,
+      1198
+    ],
+    "avg": 1043,
+    "median": 967
+  },
+  {
+    "name": "1_simple",
+    "action": "query",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      596,
+      598,
+      600
+    ],
+    "avg": 598,
+    "median": 598
+  },
+  {
+    "name": "1_simple",
+    "action": "query",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      180,
+      187,
+      187
+    ],
+    "avg": 184,
+    "median": 187
+  },
+  {
+    "name": "2_complex",
+    "action": "dbsize",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      50996768,
+      50996768,
+      50996768
+    ],
+    "avg": 50996768,
+    "median": 50996768
+  },
+  {
+    "name": "2_complex",
+    "action": "dbsize",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      50996768,
+      50996768,
+      50996768
+    ],
+    "avg": 50996768,
+    "median": 50996768
+  },
+  {
+    "name": "2_complex",
+    "action": "dbsize",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      50996768,
+      50996768,
+      50996768
+    ],
+    "avg": 50996768,
+    "median": 50996768
+  },
+  {
+    "name": "2_complex",
+    "action": "dbsize",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      50996768,
+      50996768,
+      50996768
+    ],
+    "avg": 50996768,
+    "median": 50996768
+  },
+  {
+    "name": "2_complex",
+    "action": "dbsize",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      50996768,
+      50996768,
+      50996768
+    ],
+    "avg": 50996768,
+    "median": 50996768
+  },
+  {
+    "name": "2_complex",
+    "action": "dbsize",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      50996768,
+      50996768,
+      50996768
+    ],
+    "avg": 50996768,
+    "median": 50996768
+  },
+  {
+    "name": "2_complex",
+    "action": "dbsize",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      50996768,
+      50996768,
+      50996768
+    ],
+    "avg": 50996768,
+    "median": 50996768
+  },
+  {
+    "name": "2_complex",
+    "action": "dbsize",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      50996768,
+      50996768,
+      50996768
+    ],
+    "avg": 50996768,
+    "median": 50996768
+  },
+  {
+    "name": "2_complex",
+    "action": "insert",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      612,
+      612,
+      637
+    ],
+    "avg": 620,
+    "median": 612
+  },
+  {
+    "name": "2_complex",
+    "action": "insert",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      593,
+      594,
+      594
+    ],
+    "avg": 593,
+    "median": 594
+  },
+  {
+    "name": "2_complex",
+    "action": "insert",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      2163,
+      2175,
+      2176
+    ],
+    "avg": 2171,
+    "median": 2175
+  },
+  {
+    "name": "2_complex",
+    "action": "insert",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      1612,
+      1655,
+      1681
+    ],
+    "avg": 1649,
+    "median": 1655
+  },
+  {
+    "name": "2_complex",
+    "action": "insert",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      743,
+      750,
+      752
+    ],
+    "avg": 748,
+    "median": 750
+  },
+  {
+    "name": "2_complex",
+    "action": "insert",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      2172,
+      2174,
+      2235
+    ],
+    "avg": 2193,
+    "median": 2174
+  },
+  {
+    "name": "2_complex",
+    "action": "insert",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      1262,
+      1263,
+      1268
+    ],
+    "avg": 1264,
+    "median": 1263
+  },
+  {
+    "name": "2_complex",
+    "action": "insert",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      1010,
+      1011,
+      1012
+    ],
+    "avg": 1011,
+    "median": 1011
+  },
+  {
+    "name": "2_complex",
+    "action": "query",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      538,
+      539,
+      542
+    ],
+    "avg": 539,
+    "median": 539
+  },
+  {
+    "name": "2_complex",
+    "action": "query",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      712,
+      713,
+      718
+    ],
+    "avg": 714,
+    "median": 713
+  },
+  {
+    "name": "2_complex",
+    "action": "query",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      1260,
+      1260,
+      1263
+    ],
+    "avg": 1261,
+    "median": 1260
+  },
+  {
+    "name": "2_complex",
+    "action": "query",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      2679,
+      2681,
+      2696
+    ],
+    "avg": 2685,
+    "median": 2681
+  },
+  {
+    "name": "2_complex",
+    "action": "query",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      1157,
+      1161,
+      1162
+    ],
+    "avg": 1160,
+    "median": 1161
+  },
+  {
+    "name": "2_complex",
+    "action": "query",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      1266,
+      1267,
+      1386
+    ],
+    "avg": 1306,
+    "median": 1267
+  },
+  {
+    "name": "2_complex",
+    "action": "query",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      806,
+      807,
+      821
+    ],
+    "avg": 811,
+    "median": 807
+  },
+  {
+    "name": "2_complex",
+    "action": "query",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      399,
+      401,
+      401
+    ],
+    "avg": 400,
+    "median": 401
+  },
+  {
+    "name": "3_many/0010",
+    "action": "dbsize",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      111056,
+      111056,
+      111056
+    ],
+    "avg": 111056,
+    "median": 111056
+  },
+  {
+    "name": "3_many/0010",
+    "action": "dbsize",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      111056,
+      111056,
+      111056
+    ],
+    "avg": 111056,
+    "median": 111056
+  },
+  {
+    "name": "3_many/0010",
+    "action": "dbsize",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      111056,
+      111056,
+      111056
+    ],
+    "avg": 111056,
+    "median": 111056
+  },
+  {
+    "name": "3_many/0010",
+    "action": "dbsize",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      111056,
+      111056,
+      111056
+    ],
+    "avg": 111056,
+    "median": 111056
+  },
+  {
+    "name": "3_many/0010",
+    "action": "dbsize",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      111056,
+      111056,
+      111056
+    ],
+    "avg": 111056,
+    "median": 111056
+  },
+  {
+    "name": "3_many/0010",
+    "action": "dbsize",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      111056,
+      111056,
+      111056
+    ],
+    "avg": 111056,
+    "median": 111056
+  },
+  {
+    "name": "3_many/0010",
+    "action": "dbsize",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      111056,
+      111056,
+      111056
+    ],
+    "avg": 111056,
+    "median": 111056
+  },
+  {
+    "name": "3_many/0010",
+    "action": "dbsize",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      111056,
+      111056,
+      111056
+    ],
+    "avg": 111056,
+    "median": 111056
+  },
+  {
+    "name": "3_many/0010",
+    "action": "insert",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      0,
+      0,
+      0
+    ],
+    "avg": 0,
+    "median": 0
+  },
+  {
+    "name": "3_many/0010",
+    "action": "insert",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      0,
+      0,
+      0
+    ],
+    "avg": 0,
+    "median": 0
+  },
+  {
+    "name": "3_many/0010",
+    "action": "insert",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      0,
+      0,
+      0
+    ],
+    "avg": 0,
+    "median": 0
+  },
+  {
+    "name": "3_many/0010",
+    "action": "insert",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      0,
+      0,
+      0
+    ],
+    "avg": 0,
+    "median": 0
+  },
+  {
+    "name": "3_many/0010",
+    "action": "insert",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      0,
+      0,
+      0
+    ],
+    "avg": 0,
+    "median": 0
+  },
+  {
+    "name": "3_many/0010",
+    "action": "insert",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      0,
+      0,
+      0
+    ],
+    "avg": 0,
+    "median": 0
+  },
+  {
+    "name": "3_many/0010",
+    "action": "insert",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      0,
+      0,
+      0
+    ],
+    "avg": 0,
+    "median": 0
+  },
+  {
+    "name": "3_many/0010",
+    "action": "insert",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      0,
+      0,
+      0
+    ],
+    "avg": 0,
+    "median": 0
+  },
+  {
+    "name": "3_many/0010",
+    "action": "query",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      8,
+      8,
+      8
+    ],
+    "avg": 8,
+    "median": 8
+  },
+  {
+    "name": "3_many/0010",
+    "action": "query",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      8,
+      9,
+      9
+    ],
+    "avg": 8,
+    "median": 9
+  },
+  {
+    "name": "3_many/0010",
+    "action": "query",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      15,
+      15,
+      15
+    ],
+    "avg": 15,
+    "median": 15
+  },
+  {
+    "name": "3_many/0010",
+    "action": "query",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      29,
+      29,
+      29
+    ],
+    "avg": 29,
+    "median": 29
+  },
+  {
+    "name": "3_many/0010",
+    "action": "query",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      13,
+      13,
+      14
+    ],
+    "avg": 13,
+    "median": 13
+  },
+  {
+    "name": "3_many/0010",
+    "action": "query",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      15,
+      15,
+      15
+    ],
+    "avg": 15,
+    "median": 15
+  },
+  {
+    "name": "3_many/0010",
+    "action": "query",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      17,
+      17,
+      17
+    ],
+    "avg": 17,
+    "median": 17
+  },
+  {
+    "name": "3_many/0010",
+    "action": "query",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      3,
+      3,
+      3
+    ],
+    "avg": 3,
+    "median": 3
+  },
+  {
+    "name": "3_many/0100",
+    "action": "dbsize",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      111056,
+      111056,
+      111056
+    ],
+    "avg": 111056,
+    "median": 111056
+  },
+  {
+    "name": "3_many/0100",
+    "action": "dbsize",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      111056,
+      111056,
+      111056
+    ],
+    "avg": 111056,
+    "median": 111056
+  },
+  {
+    "name": "3_many/0100",
+    "action": "dbsize",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      111056,
+      111056,
+      111056
+    ],
+    "avg": 111056,
+    "median": 111056
+  },
+  {
+    "name": "3_many/0100",
+    "action": "dbsize",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      111056,
+      111056,
+      111056
+    ],
+    "avg": 111056,
+    "median": 111056
+  },
+  {
+    "name": "3_many/0100",
+    "action": "dbsize",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      111056,
+      111056,
+      111056
+    ],
+    "avg": 111056,
+    "median": 111056
+  },
+  {
+    "name": "3_many/0100",
+    "action": "dbsize",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      111056,
+      111056,
+      111056
+    ],
+    "avg": 111056,
+    "median": 111056
+  },
+  {
+    "name": "3_many/0100",
+    "action": "dbsize",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      111056,
+      111056,
+      111056
+    ],
+    "avg": 111056,
+    "median": 111056
+  },
+  {
+    "name": "3_many/0100",
+    "action": "dbsize",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      111056,
+      111056,
+      111056
+    ],
+    "avg": 111056,
+    "median": 111056
+  },
+  {
+    "name": "3_many/0100",
+    "action": "insert",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      0,
+      0,
+      0
+    ],
+    "avg": 0,
+    "median": 0
+  },
+  {
+    "name": "3_many/0100",
+    "action": "insert",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      0,
+      0,
+      0
+    ],
+    "avg": 0,
+    "median": 0
+  },
+  {
+    "name": "3_many/0100",
+    "action": "insert",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      0,
+      0,
+      0
+    ],
+    "avg": 0,
+    "median": 0
+  },
+  {
+    "name": "3_many/0100",
+    "action": "insert",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      0,
+      0,
+      0
+    ],
+    "avg": 0,
+    "median": 0
+  },
+  {
+    "name": "3_many/0100",
+    "action": "insert",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      0,
+      0,
+      0
+    ],
+    "avg": 0,
+    "median": 0
+  },
+  {
+    "name": "3_many/0100",
+    "action": "insert",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      0,
+      0,
+      0
+    ],
+    "avg": 0,
+    "median": 0
+  },
+  {
+    "name": "3_many/0100",
+    "action": "insert",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      0,
+      0,
+      0
+    ],
+    "avg": 0,
+    "median": 0
+  },
+  {
+    "name": "3_many/0100",
+    "action": "insert",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      0,
+      0,
+      0
+    ],
+    "avg": 0,
+    "median": 0
+  },
+  {
+    "name": "3_many/0100",
+    "action": "query",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      52,
+      52,
+      53
+    ],
+    "avg": 52,
+    "median": 52
+  },
+  {
+    "name": "3_many/0100",
+    "action": "query",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      56,
+      56,
+      58
+    ],
+    "avg": 56,
+    "median": 56
+  },
+  {
+    "name": "3_many/0100",
+    "action": "query",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      92,
+      93,
+      94
+    ],
+    "avg": 93,
+    "median": 93
+  },
+  {
+    "name": "3_many/0100",
+    "action": "query",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      237,
+      238,
+      239
+    ],
+    "avg": 238,
+    "median": 238
+  },
+  {
+    "name": "3_many/0100",
+    "action": "query",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      91,
+      92,
+      92
+    ],
+    "avg": 91,
+    "median": 92
+  },
+  {
+    "name": "3_many/0100",
+    "action": "query",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      92,
+      93,
+      94
+    ],
+    "avg": 93,
+    "median": 93
+  },
+  {
+    "name": "3_many/0100",
+    "action": "query",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      62,
+      63,
+      63
+    ],
+    "avg": 62,
+    "median": 63
+  },
+  {
+    "name": "3_many/0100",
+    "action": "query",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      16,
+      16,
+      16
+    ],
+    "avg": 16,
+    "median": 16
+  },
+  {
+    "name": "3_many/1000",
+    "action": "dbsize",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      172856,
+      172856,
+      172856
+    ],
+    "avg": 172856,
+    "median": 172856
+  },
+  {
+    "name": "3_many/1000",
+    "action": "dbsize",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      172856,
+      172856,
+      172856
+    ],
+    "avg": 172856,
+    "median": 172856
+  },
+  {
+    "name": "3_many/1000",
+    "action": "dbsize",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      172856,
+      172856,
+      172856
+    ],
+    "avg": 172856,
+    "median": 172856
+  },
+  {
+    "name": "3_many/1000",
+    "action": "dbsize",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      172856,
+      172856,
+      172856
+    ],
+    "avg": 172856,
+    "median": 172856
+  },
+  {
+    "name": "3_many/1000",
+    "action": "dbsize",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      172856,
+      172856,
+      172856
+    ],
+    "avg": 172856,
+    "median": 172856
+  },
+  {
+    "name": "3_many/1000",
+    "action": "dbsize",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      172856,
+      172856,
+      172856
+    ],
+    "avg": 172856,
+    "median": 172856
+  },
+  {
+    "name": "3_many/1000",
+    "action": "dbsize",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      172856,
+      172856,
+      172856
+    ],
+    "avg": 172856,
+    "median": 172856
+  },
+  {
+    "name": "3_many/1000",
+    "action": "dbsize",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      172856,
+      172856,
+      172856
+    ],
+    "avg": 172856,
+    "median": 172856
+  },
+  {
+    "name": "3_many/1000",
+    "action": "insert",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      0,
+      0,
+      0
+    ],
+    "avg": 0,
+    "median": 0
+  },
+  {
+    "name": "3_many/1000",
+    "action": "insert",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      0,
+      0,
+      0
+    ],
+    "avg": 0,
+    "median": 0
+  },
+  {
+    "name": "3_many/1000",
+    "action": "insert",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      3,
+      3,
+      3
+    ],
+    "avg": 3,
+    "median": 3
+  },
+  {
+    "name": "3_many/1000",
+    "action": "insert",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      3,
+      3,
+      3
+    ],
+    "avg": 3,
+    "median": 3
+  },
+  {
+    "name": "3_many/1000",
+    "action": "insert",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      1,
+      1,
+      1
+    ],
+    "avg": 1,
+    "median": 1
+  },
+  {
+    "name": "3_many/1000",
+    "action": "insert",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      3,
+      3,
+      3
+    ],
+    "avg": 3,
+    "median": 3
+  },
+  {
+    "name": "3_many/1000",
+    "action": "insert",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      1,
+      1,
+      1
+    ],
+    "avg": 1,
+    "median": 1
+  },
+  {
+    "name": "3_many/1000",
+    "action": "insert",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      1,
+      1,
+      1
+    ],
+    "avg": 1,
+    "median": 1
+  },
+  {
+    "name": "3_many/1000",
+    "action": "query",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      415,
+      418,
+      419
+    ],
+    "avg": 417,
+    "median": 418
+  },
+  {
+    "name": "3_many/1000",
+    "action": "query",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      522,
+      524,
+      524
+    ],
+    "avg": 523,
+    "median": 524
+  },
+  {
+    "name": "3_many/1000",
+    "action": "query",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      872,
+      875,
+      876
+    ],
+    "avg": 874,
+    "median": 875
+  },
+  {
+    "name": "3_many/1000",
+    "action": "query",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      2333,
+      2338,
+      2344
+    ],
+    "avg": 2338,
+    "median": 2338
+  },
+  {
+    "name": "3_many/1000",
+    "action": "query",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      876,
+      879,
+      885
+    ],
+    "avg": 880,
+    "median": 879
+  },
+  {
+    "name": "3_many/1000",
+    "action": "query",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      878,
+      878,
+      883
+    ],
+    "avg": 879,
+    "median": 878
+  },
+  {
+    "name": "3_many/1000",
+    "action": "query",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      525,
+      525,
+      531
+    ],
+    "avg": 527,
+    "median": 525
+  },
+  {
+    "name": "3_many/1000",
+    "action": "query",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      156,
+      156,
+      156
+    ],
+    "avg": 156,
+    "median": 156
+  },
+  {
+    "name": "4_large/050000",
+    "action": "dbsize",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      1007927936,
+      1007927936,
+      1007927936
+    ],
+    "avg": 1007927936,
+    "median": 1007927936
+  },
+  {
+    "name": "4_large/050000",
+    "action": "dbsize",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      1007927936,
+      1007927936,
+      1007927936
+    ],
+    "avg": 1007927936,
+    "median": 1007927936
+  },
+  {
+    "name": "4_large/050000",
+    "action": "dbsize",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      1007927936,
+      1007927936,
+      1007927936
+    ],
+    "avg": 1007927936,
+    "median": 1007927936
+  },
+  {
+    "name": "4_large/050000",
+    "action": "dbsize",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      1007927936,
+      1007927936,
+      1007927936
+    ],
+    "avg": 1007927936,
+    "median": 1007927936
+  },
+  {
+    "name": "4_large/050000",
+    "action": "dbsize",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      1007927936,
+      1007927936,
+      1007927936
+    ],
+    "avg": 1007927936,
+    "median": 1007927936
+  },
+  {
+    "name": "4_large/050000",
+    "action": "dbsize",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      1007927936,
+      1007927936,
+      1007927936
+    ],
+    "avg": 1007927936,
+    "median": 1007927936
+  },
+  {
+    "name": "4_large/050000",
+    "action": "dbsize",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      1007927936,
+      1007927936,
+      1007927936
+    ],
+    "avg": 1007927936,
+    "median": 1007927936
+  },
+  {
+    "name": "4_large/050000",
+    "action": "dbsize",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      1007927936,
+      1007927936,
+      1007927936
+    ],
+    "avg": 1007927936,
+    "median": 1007927936
+  },
+  {
+    "name": "4_large/050000",
+    "action": "insert",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      1449,
+      1455,
+      2073
+    ],
+    "avg": 1659,
+    "median": 1455
+  },
+  {
+    "name": "4_large/050000",
+    "action": "insert",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      1481,
+      1489,
+      1494
+    ],
+    "avg": 1488,
+    "median": 1489
+  },
+  {
+    "name": "4_large/050000",
+    "action": "insert",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      1591,
+      1597,
+      1608
+    ],
+    "avg": 1598,
+    "median": 1597
+  },
+  {
+    "name": "4_large/050000",
+    "action": "insert",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      1715,
+      1734,
+      1790
+    ],
+    "avg": 1746,
+    "median": 1734
+  },
+  {
+    "name": "4_large/050000",
+    "action": "insert",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      1491,
+      1494,
+      1507
+    ],
+    "avg": 1497,
+    "median": 1494
+  },
+  {
+    "name": "4_large/050000",
+    "action": "insert",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      1588,
+      1793,
+      1850
+    ],
+    "avg": 1743,
+    "median": 1793
+  },
+  {
+    "name": "4_large/050000",
+    "action": "insert",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      1552,
+      1554,
+      1556
+    ],
+    "avg": 1554,
+    "median": 1554
+  },
+  {
+    "name": "4_large/050000",
+    "action": "insert",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      1690,
+      1699,
+      1702
+    ],
+    "avg": 1697,
+    "median": 1699
+  },
+  {
+    "name": "4_large/050000",
+    "action": "query",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      129,
+      130,
+      140
+    ],
+    "avg": 133,
+    "median": 130
+  },
+  {
+    "name": "4_large/050000",
+    "action": "query",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      102,
+      120,
+      121
+    ],
+    "avg": 114,
+    "median": 120
+  },
+  {
+    "name": "4_large/050000",
+    "action": "query",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      146,
+      150,
+      152
+    ],
+    "avg": 149,
+    "median": 150
+  },
+  {
+    "name": "4_large/050000",
+    "action": "query",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      599,
+      603,
+      603
+    ],
+    "avg": 601,
+    "median": 603
+  },
+  {
+    "name": "4_large/050000",
+    "action": "query",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      112,
+      114,
+      117
+    ],
+    "avg": 114,
+    "median": 114
+  },
+  {
+    "name": "4_large/050000",
+    "action": "query",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      151,
+      160,
+      160
+    ],
+    "avg": 157,
+    "median": 160
+  },
+  {
+    "name": "4_large/050000",
+    "action": "query",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      151,
+      152,
+      154
+    ],
+    "avg": 152,
+    "median": 152
+  },
+  {
+    "name": "4_large/050000",
+    "action": "query",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      107,
+      115,
+      121
+    ],
+    "avg": 114,
+    "median": 115
+  },
+  {
+    "name": "4_large/100000",
+    "action": "dbsize",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      2015412056,
+      2015412056,
+      2015412056
+    ],
+    "avg": 2015412056,
+    "median": 2015412056
+  },
+  {
+    "name": "4_large/100000",
+    "action": "dbsize",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      2015412056,
+      2015412056,
+      2015412056
+    ],
+    "avg": 2015412056,
+    "median": 2015412056
+  },
+  {
+    "name": "4_large/100000",
+    "action": "dbsize",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      2015412056,
+      2015412056,
+      2015412056
+    ],
+    "avg": 2015412056,
+    "median": 2015412056
+  },
+  {
+    "name": "4_large/100000",
+    "action": "dbsize",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      1005727744,
+      1005727744,
+      1005727744
+    ],
+    "avg": 1005727744,
+    "median": 1005727744
+  },
+  {
+    "name": "4_large/100000",
+    "action": "dbsize",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      2015412056,
+      2015412056,
+      2015412056
+    ],
+    "avg": 2015412056,
+    "median": 2015412056
+  },
+  {
+    "name": "4_large/100000",
+    "action": "dbsize",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      2015412056,
+      2015412056,
+      2015412056
+    ],
+    "avg": 2015412056,
+    "median": 2015412056
+  },
+  {
+    "name": "4_large/100000",
+    "action": "dbsize",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      2015412056,
+      2015412056,
+      2015412056
+    ],
+    "avg": 2015412056,
+    "median": 2015412056
+  },
+  {
+    "name": "4_large/100000",
+    "action": "dbsize",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      2015412056,
+      2015412056,
+      2015412056
+    ],
+    "avg": 2015412056,
+    "median": 2015412056
+  },
+  {
+    "name": "4_large/100000",
+    "action": "insert",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      2635,
+      2638,
+      3418
+    ],
+    "avg": 2897,
+    "median": 2638
+  },
+  {
+    "name": "4_large/100000",
+    "action": "insert",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      2620,
+      2636,
+      2699
+    ],
+    "avg": 2651,
+    "median": 2636
+  },
+  {
+    "name": "4_large/100000",
+    "action": "insert",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      2994,
+      3007,
+      3020
+    ],
+    "avg": 3007,
+    "median": 3007
+  },
+  {
+    "name": "4_large/100000",
+    "action": "insert",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      3137,
+      3147,
+      3150
+    ],
+    "avg": 3144,
+    "median": 3147
+  },
+  {
+    "name": "4_large/100000",
+    "action": "insert",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      2658,
+      2683,
+      2842
+    ],
+    "avg": 2727,
+    "median": 2683
+  },
+  {
+    "name": "4_large/100000",
+    "action": "insert",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      2993,
+      3002,
+      3004
+    ],
+    "avg": 2999,
+    "median": 3002
+  },
+  {
+    "name": "4_large/100000",
+    "action": "insert",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      2784,
+      2801,
+      3004
+    ],
+    "avg": 2863,
+    "median": 2801
+  },
+  {
+    "name": "4_large/100000",
+    "action": "insert",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      3054,
+      3128,
+      3214
+    ],
+    "avg": 3132,
+    "median": 3128
+  },
+  {
+    "name": "4_large/100000",
+    "action": "query",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      241,
+      273,
+      1413
+    ],
+    "avg": 642,
+    "median": 273
+  },
+  {
+    "name": "4_large/100000",
+    "action": "query",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      210,
+      213,
+      226
+    ],
+    "avg": 216,
+    "median": 213
+  },
+  {
+    "name": "4_large/100000",
+    "action": "query",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      363,
+      383,
+      386
+    ],
+    "avg": 377,
+    "median": 383
+  },
+  {
+    "name": "4_large/100000",
+    "action": "query",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      987,
+      990,
+      993
+    ],
+    "avg": 990,
+    "median": 990
+  },
+  {
+    "name": "4_large/100000",
+    "action": "query",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      190,
+      196,
+      217
+    ],
+    "avg": 201,
+    "median": 196
+  },
+  {
+    "name": "4_large/100000",
+    "action": "query",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      382,
+      394,
+      395
+    ],
+    "avg": 390,
+    "median": 394
+  },
+  {
+    "name": "4_large/100000",
+    "action": "query",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      269,
+      271,
+      299
+    ],
+    "avg": 279,
+    "median": 271
+  },
+  {
+    "name": "4_large/100000",
+    "action": "query",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      294,
+      301,
+      326
+    ],
+    "avg": 307,
+    "median": 301
+  },
+  {
+    "name": "4_large/200000",
+    "action": "dbsize",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      4030392608,
+      4030392608,
+      4030392608
+    ],
+    "avg": 4030392608,
+    "median": 4030392608
+  },
+  {
+    "name": "4_large/200000",
+    "action": "dbsize",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      4030392608,
+      4030392608,
+      4030392608
+    ],
+    "avg": 4030392608,
+    "median": 4030392608
+  },
+  {
+    "name": "4_large/200000",
+    "action": "dbsize",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      4030392608,
+      4030392608,
+      4030392608
+    ],
+    "avg": 4030392608,
+    "median": 4030392608
+  },
+  {
+    "name": "4_large/200000",
+    "action": "dbsize",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      2011262976,
+      2011262976,
+      2011262976
+    ],
+    "avg": 2011262976,
+    "median": 2011262976
+  },
+  {
+    "name": "4_large/200000",
+    "action": "dbsize",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      4030392608,
+      4030392608,
+      4030392608
+    ],
+    "avg": 4030392608,
+    "median": 4030392608
+  },
+  {
+    "name": "4_large/200000",
+    "action": "dbsize",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      4030392608,
+      4030392608,
+      4030392608
+    ],
+    "avg": 4030392608,
+    "median": 4030392608
+  },
+  {
+    "name": "4_large/200000",
+    "action": "dbsize",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      4030392608,
+      4030392608,
+      4030392608
+    ],
+    "avg": 4030392608,
+    "median": 4030392608
+  },
+  {
+    "name": "4_large/200000",
+    "action": "dbsize",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      4030392608,
+      4030392608,
+      4030392608
+    ],
+    "avg": 4030392608,
+    "median": 4030392608
+  },
+  {
+    "name": "4_large/200000",
+    "action": "insert",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      5687,
+      5709,
+      7179
+    ],
+    "avg": 6191,
+    "median": 5709
+  },
+  {
+    "name": "4_large/200000",
+    "action": "insert",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      5529,
+      5706,
+      5994
+    ],
+    "avg": 5743,
+    "median": 5706
+  },
+  {
+    "name": "4_large/200000",
+    "action": "insert",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      6016,
+      6041,
+      6169
+    ],
+    "avg": 6075,
+    "median": 6041
+  },
+  {
+    "name": "4_large/200000",
+    "action": "insert",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      6135,
+      6208,
+      6311
+    ],
+    "avg": 6218,
+    "median": 6208
+  },
+  {
+    "name": "4_large/200000",
+    "action": "insert",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      5255,
+      5367,
+      5436
+    ],
+    "avg": 5352,
+    "median": 5367
+  },
+  {
+    "name": "4_large/200000",
+    "action": "insert",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      5862,
+      5912,
+      6106
+    ],
+    "avg": 5960,
+    "median": 5912
+  },
+  {
+    "name": "4_large/200000",
+    "action": "insert",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      5561,
+      5814,
+      6650
+    ],
+    "avg": 6008,
+    "median": 5814
+  },
+  {
+    "name": "4_large/200000",
+    "action": "insert",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      6093,
+      6189,
+      6420
+    ],
+    "avg": 6234,
+    "median": 6189
+  },
+  {
+    "name": "4_large/200000",
+    "action": "query",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      2750,
+      2838,
+      3546
+    ],
+    "avg": 3044,
+    "median": 2838
+  },
+  {
+    "name": "4_large/200000",
+    "action": "query",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      384,
+      391,
+      457
+    ],
+    "avg": 410,
+    "median": 391
+  },
+  {
+    "name": "4_large/200000",
+    "action": "query",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      659,
+      702,
+      706
+    ],
+    "avg": 689,
+    "median": 702
+  },
+  {
+    "name": "4_large/200000",
+    "action": "query",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      2028,
+      2037,
+      2201
+    ],
+    "avg": 2088,
+    "median": 2037
+  },
+  {
+    "name": "4_large/200000",
+    "action": "query",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      402,
+      3151,
+      3334
+    ],
+    "avg": 2295,
+    "median": 3151
+  },
+  {
+    "name": "4_large/200000",
+    "action": "query",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      690,
+      2592,
+      2715
+    ],
+    "avg": 1999,
+    "median": 2592
+  },
+  {
+    "name": "4_large/200000",
+    "action": "query",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      455,
+      492,
+      1229
+    ],
+    "avg": 725,
+    "median": 492
+  },
+  {
+    "name": "4_large/200000",
+    "action": "query",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      587,
+      722,
+      1001
+    ],
+    "avg": 770,
+    "median": 722
+  },
+  {
+    "name": "5_concurrent/2",
+    "action": "dbsize",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      56573952,
+      56573952,
+      56573952
+    ],
+    "avg": 56573952,
+    "median": 56573952
+  },
+  {
+    "name": "5_concurrent/2",
+    "action": "dbsize",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      56573952,
+      56573952,
+      56573952
+    ],
+    "avg": 56573952,
+    "median": 56573952
+  },
+  {
+    "name": "5_concurrent/2",
+    "action": "dbsize",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      56573952,
+      56573952,
+      56573952
+    ],
+    "avg": 56573952,
+    "median": 56573952
+  },
+  {
+    "name": "5_concurrent/2",
+    "action": "dbsize",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      56606720,
+      56606720,
+      56606720
+    ],
+    "avg": 56606720,
+    "median": 56606720
+  },
+  {
+    "name": "5_concurrent/2",
+    "action": "dbsize",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      56573952,
+      56573952,
+      56573952
+    ],
+    "avg": 56573952,
+    "median": 56573952
+  },
+  {
+    "name": "5_concurrent/2",
+    "action": "dbsize",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      56573952,
+      56573952,
+      56573952
+    ],
+    "avg": 56573952,
+    "median": 56573952
+  },
+  {
+    "name": "5_concurrent/2",
+    "action": "dbsize",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      56573952,
+      56573952,
+      56606720
+    ],
+    "avg": 56584874,
+    "median": 56573952
+  },
+  {
+    "name": "5_concurrent/2",
+    "action": "dbsize",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      56573952,
+      56573952,
+      56573952
+    ],
+    "avg": 56573952,
+    "median": 56573952
+  },
+  {
+    "name": "5_concurrent/2",
+    "action": "insert",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      1047,
+      1047,
+      1047
+    ],
+    "avg": 1047,
+    "median": 1047
+  },
+  {
+    "name": "5_concurrent/2",
+    "action": "insert",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      977,
+      979,
+      992
+    ],
+    "avg": 982,
+    "median": 979
+  },
+  {
+    "name": "5_concurrent/2",
+    "action": "insert",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      3852,
+      3862,
+      3898
+    ],
+    "avg": 3870,
+    "median": 3862
+  },
+  {
+    "name": "5_concurrent/2",
+    "action": "insert",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      3315,
+      3321,
+      3326
+    ],
+    "avg": 3320,
+    "median": 3321
+  },
+  {
+    "name": "5_concurrent/2",
+    "action": "insert",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      1327,
+      1347,
+      1350
+    ],
+    "avg": 1341,
+    "median": 1347
+  },
+  {
+    "name": "5_concurrent/2",
+    "action": "insert",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      3860,
+      3911,
+      3950
+    ],
+    "avg": 3907,
+    "median": 3911
+  },
+  {
+    "name": "5_concurrent/2",
+    "action": "insert",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      2032,
+      2041,
+      2046
+    ],
+    "avg": 2039,
+    "median": 2041
+  },
+  {
+    "name": "5_concurrent/2",
+    "action": "insert",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      1326,
+      1327,
+      1350
+    ],
+    "avg": 1334,
+    "median": 1327
+  },
+  {
+    "name": "5_concurrent/2",
+    "action": "query",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      532,
+      554,
+      558
+    ],
+    "avg": 548,
+    "median": 554
+  },
+  {
+    "name": "5_concurrent/2",
+    "action": "query",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      677,
+      681,
+      685
+    ],
+    "avg": 681,
+    "median": 681
+  },
+  {
+    "name": "5_concurrent/2",
+    "action": "query",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      2498,
+      2519,
+      2565
+    ],
+    "avg": 2527,
+    "median": 2519
+  },
+  {
+    "name": "5_concurrent/2",
+    "action": "query",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      2702,
+      2708,
+      2740
+    ],
+    "avg": 2716,
+    "median": 2708
+  },
+  {
+    "name": "5_concurrent/2",
+    "action": "query",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      1016,
+      1047,
+      1060
+    ],
+    "avg": 1041,
+    "median": 1047
+  },
+  {
+    "name": "5_concurrent/2",
+    "action": "query",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      2437,
+      2445,
+      2496
+    ],
+    "avg": 2459,
+    "median": 2445
+  },
+  {
+    "name": "5_concurrent/2",
+    "action": "query",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      637,
+      647,
+      650
+    ],
+    "avg": 644,
+    "median": 647
+  },
+  {
+    "name": "5_concurrent/2",
+    "action": "query",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      249,
+      253,
+      255
+    ],
+    "avg": 252,
+    "median": 253
+  },
+  {
+    "name": "5_concurrent/4",
+    "action": "dbsize",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      56573952,
+      56573952,
+      56573952
+    ],
+    "avg": 56573952,
+    "median": 56573952
+  },
+  {
+    "name": "5_concurrent/4",
+    "action": "dbsize",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      56573952,
+      56573952,
+      56573952
+    ],
+    "avg": 56573952,
+    "median": 56573952
+  },
+  {
+    "name": "5_concurrent/4",
+    "action": "dbsize",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      56573952,
+      56573952,
+      56573952
+    ],
+    "avg": 56573952,
+    "median": 56573952
+  },
+  {
+    "name": "5_concurrent/4",
+    "action": "dbsize",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      56606720,
+      56606720,
+      56606720
+    ],
+    "avg": 56606720,
+    "median": 56606720
+  },
+  {
+    "name": "5_concurrent/4",
+    "action": "dbsize",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      56573952,
+      56573952,
+      56573952
+    ],
+    "avg": 56573952,
+    "median": 56573952
+  },
+  {
+    "name": "5_concurrent/4",
+    "action": "dbsize",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      56573952,
+      56573952,
+      56573952
+    ],
+    "avg": 56573952,
+    "median": 56573952
+  },
+  {
+    "name": "5_concurrent/4",
+    "action": "dbsize",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      56573952,
+      56573952,
+      56573952
+    ],
+    "avg": 56573952,
+    "median": 56573952
+  },
+  {
+    "name": "5_concurrent/4",
+    "action": "dbsize",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      56573952,
+      56573952,
+      56573952
+    ],
+    "avg": 56573952,
+    "median": 56573952
+  },
+  {
+    "name": "5_concurrent/4",
+    "action": "insert",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      1046,
+      1068,
+      1070
+    ],
+    "avg": 1061,
+    "median": 1068
+  },
+  {
+    "name": "5_concurrent/4",
+    "action": "insert",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      979,
+      981,
+      988
+    ],
+    "avg": 982,
+    "median": 981
+  },
+  {
+    "name": "5_concurrent/4",
+    "action": "insert",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      3842,
+      3873,
+      3875
+    ],
+    "avg": 3863,
+    "median": 3873
+  },
+  {
+    "name": "5_concurrent/4",
+    "action": "insert",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      3307,
+      3311,
+      3334
+    ],
+    "avg": 3317,
+    "median": 3311
+  },
+  {
+    "name": "5_concurrent/4",
+    "action": "insert",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      1337,
+      1339,
+      1341
+    ],
+    "avg": 1339,
+    "median": 1339
+  },
+  {
+    "name": "5_concurrent/4",
+    "action": "insert",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      3844,
+      3847,
+      3879
+    ],
+    "avg": 3856,
+    "median": 3847
+  },
+  {
+    "name": "5_concurrent/4",
+    "action": "insert",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      2036,
+      2055,
+      2192
+    ],
+    "avg": 2094,
+    "median": 2055
+  },
+  {
+    "name": "5_concurrent/4",
+    "action": "insert",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      1325,
+      1333,
+      1333
+    ],
+    "avg": 1330,
+    "median": 1333
+  },
+  {
+    "name": "5_concurrent/4",
+    "action": "query",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      620,
+      627,
+      647
+    ],
+    "avg": 631,
+    "median": 627
+  },
+  {
+    "name": "5_concurrent/4",
+    "action": "query",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      773,
+      779,
+      796
+    ],
+    "avg": 782,
+    "median": 779
+  },
+  {
+    "name": "5_concurrent/4",
+    "action": "query",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      6304,
+      6314,
+      6471
+    ],
+    "avg": 6363,
+    "median": 6314
+  },
+  {
+    "name": "5_concurrent/4",
+    "action": "query",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      3151,
+      3160,
+      3205
+    ],
+    "avg": 3172,
+    "median": 3160
+  },
+  {
+    "name": "5_concurrent/4",
+    "action": "query",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      1126,
+      1129,
+      1145
+    ],
+    "avg": 1133,
+    "median": 1129
+  },
+  {
+    "name": "5_concurrent/4",
+    "action": "query",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      6172,
+      6184,
+      6185
+    ],
+    "avg": 6180,
+    "median": 6184
+  },
+  {
+    "name": "5_concurrent/4",
+    "action": "query",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      720,
+      722,
+      740
+    ],
+    "avg": 727,
+    "median": 722
+  },
+  {
+    "name": "5_concurrent/4",
+    "action": "query",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      311,
+      329,
+      329
+    ],
+    "avg": 323,
+    "median": 329
+  },
+  {
+    "name": "5_concurrent/8",
+    "action": "dbsize",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      56573952,
+      56573952,
+      56573952
+    ],
+    "avg": 56573952,
+    "median": 56573952
+  },
+  {
+    "name": "5_concurrent/8",
+    "action": "dbsize",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      56573952,
+      56573952,
+      56573952
+    ],
+    "avg": 56573952,
+    "median": 56573952
+  },
+  {
+    "name": "5_concurrent/8",
+    "action": "dbsize",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      56573952,
+      56573952,
+      56573952
+    ],
+    "avg": 56573952,
+    "median": 56573952
+  },
+  {
+    "name": "5_concurrent/8",
+    "action": "dbsize",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      56606720,
+      56606720,
+      56606720
+    ],
+    "avg": 56606720,
+    "median": 56606720
+  },
+  {
+    "name": "5_concurrent/8",
+    "action": "dbsize",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      56573952,
+      56573952,
+      56573952
+    ],
+    "avg": 56573952,
+    "median": 56573952
+  },
+  {
+    "name": "5_concurrent/8",
+    "action": "dbsize",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      56573952,
+      56573952,
+      56573952
+    ],
+    "avg": 56573952,
+    "median": 56573952
+  },
+  {
+    "name": "5_concurrent/8",
+    "action": "dbsize",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      56573952,
+      56573952,
+      56573952
+    ],
+    "avg": 56573952,
+    "median": 56573952
+  },
+  {
+    "name": "5_concurrent/8",
+    "action": "dbsize",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      56573952,
+      56573952,
+      56573952
+    ],
+    "avg": 56573952,
+    "median": 56573952
+  },
+  {
+    "name": "5_concurrent/8",
+    "action": "insert",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      1048,
+      1051,
+      1120
+    ],
+    "avg": 1073,
+    "median": 1051
+  },
+  {
+    "name": "5_concurrent/8",
+    "action": "insert",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      982,
+      984,
+      987
+    ],
+    "avg": 984,
+    "median": 984
+  },
+  {
+    "name": "5_concurrent/8",
+    "action": "insert",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      3843,
+      3863,
+      3866
+    ],
+    "avg": 3857,
+    "median": 3863
+  },
+  {
+    "name": "5_concurrent/8",
+    "action": "insert",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      3312,
+      3326,
+      3349
+    ],
+    "avg": 3329,
+    "median": 3326
+  },
+  {
+    "name": "5_concurrent/8",
+    "action": "insert",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      1340,
+      1346,
+      1348
+    ],
+    "avg": 1344,
+    "median": 1346
+  },
+  {
+    "name": "5_concurrent/8",
+    "action": "insert",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      3838,
+      3851,
+      3857
+    ],
+    "avg": 3848,
+    "median": 3851
+  },
+  {
+    "name": "5_concurrent/8",
+    "action": "insert",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      2038,
+      2055,
+      2197
+    ],
+    "avg": 2096,
+    "median": 2055
+  },
+  {
+    "name": "5_concurrent/8",
+    "action": "insert",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      1328,
+      1332,
+      1341
+    ],
+    "avg": 1333,
+    "median": 1332
+  },
+  {
+    "name": "5_concurrent/8",
+    "action": "query",
+    "library": "craw",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      978,
+      1037,
+      1082
+    ],
+    "avg": 1032,
+    "median": 1037
+  },
+  {
+    "name": "5_concurrent/8",
+    "action": "query",
+    "library": "eaton",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      1249,
+      1256,
+      1274
+    ],
+    "avg": 1259,
+    "median": 1256
+  },
+  {
+    "name": "5_concurrent/8",
+    "action": "query",
+    "library": "glebarez",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      15664,
+      15684,
+      15694
+    ],
+    "avg": 15680,
+    "median": 15684
+  },
+  {
+    "name": "5_concurrent/8",
+    "action": "query",
+    "library": "libsql",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      7031,
+      7095,
+      7111
+    ],
+    "avg": 7079,
+    "median": 7095
+  },
+  {
+    "name": "5_concurrent/8",
+    "action": "query",
+    "library": "mattn",
+    "implementation": "CGO",
+    "driver": "true",
+    "value": [
+      1975,
+      1976,
+      1997
+    ],
+    "avg": 1982,
+    "median": 1976
+  },
+  {
+    "name": "5_concurrent/8",
+    "action": "query",
+    "library": "modernc",
+    "implementation": "Pure Go",
+    "driver": "true",
+    "value": [
+      15283,
+      15301,
+      15342
+    ],
+    "avg": 15308,
+    "median": 15301
+  },
+  {
+    "name": "5_concurrent/8",
+    "action": "query",
+    "library": "ncruces",
+    "implementation": "WASM",
+    "driver": "true",
+    "value": [
+      1137,
+      1159,
+      1167
+    ],
+    "avg": 1154,
+    "median": 1159
+  },
+  {
+    "name": "5_concurrent/8",
+    "action": "query",
+    "library": "zombie",
+    "implementation": "CGO",
+    "driver": "false",
+    "value": [
+      548,
+      550,
+      578
+    ],
+    "avg": 558,
+    "median": 550
+  }
+]
