@@ -397,7 +397,10 @@ function generalMapper(
 	const res = _.chain(data)
 		.filter(group)
 		.reduce(
-			(acc: { x: string[]; y: number[] }, el: SqliteBenchmarkEntry) => {
+			(
+				acc: { x: string[]; y: number[]; marker?: { color: string[] } },
+				el: SqliteBenchmarkEntry,
+			) => {
 				const label = `${el.library}<br>(${el.implementation})`;
 				acc.x.push(label);
 				acc.y.push(el.median);
@@ -406,5 +409,24 @@ function generalMapper(
 			{ x: [] as string[], y: [] as number[] },
 		)
 		.value();
+	res.marker = {
+		color: [
+			'#003f5c',
+			'#2f4b7c',
+			'#665191',
+			'#a05195',
+			'#d45087',
+			'#f95d6a',
+			'#ff7c43',
+			'#ffa600',
+			'#00876c',
+			'#3e976d',
+			'#63a66f',
+			'#86b572',
+			'#a9c377',
+			'#ccd07f',
+			'#f0dd8b',
+		],
+	};
 	return res;
 }
