@@ -5,6 +5,7 @@
     "jsx": "react-jsx",
     "jsxImportSource": "preact",
     "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
     "isolatedModules": true,
     "allowJs": true,
     "skipLibCheck": true,

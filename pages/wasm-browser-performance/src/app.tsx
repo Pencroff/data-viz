@@ -1,10 +1,11 @@
 import { ChartBlock } from '$cmp/ChartBlock';
 import { DtGridBlock } from '$cmp/DtGridBlock';
-import { filters as fltr, formatters as fmt } from '$cmp/DtGridUtils';
+import { formatters as fmt } from '$cmp/DtGridUtils';
 import type { InnColumnDefinition } from '$cmp/types/DtGridTypes';
 import { FilterAsType } from '$cmp/types/DtGridTypes';
 import { useFirstRender } from '$lib';
-import { groupBy, last, map, round } from 'lodash-es';
+import _ from 'lodash';
+// @ts-ignore
 import data from '../data/benchmark_browser_2024-11-01.json5';
 
 type WasmBrowserBenchmarkEntry = {
@@ -104,10 +105,9 @@ export const App = () => {
 							scale: {
 								listTitle: 'Browser scale',
 								title: 'Browser scale, last version',
-								yLabel: 'Scale',
+								yLabel: 'Scale, times',
 								description:
 									'Comparison with "Binary" baseline, lower is better',
-
 								charts: [
 									{ type: 'bar', group: 'safari', mapper: 'scaleMapper' },
 									{ type: 'bar', group: 'chrome', mapper: 'scaleMapper' },
@@ -116,7 +116,6 @@ export const App = () => {
 									{ type: 'bar', group: 'arc', mapper: 'scaleMapper' },
 								],
 								layout: {
-									height: 512,
 									autosize: true,
 									shapes: [
 										{
@@ -136,14 +135,62 @@ export const App = () => {
 									],
 									annotations: [
 										{
-											x: 0.5,
-											y: 1.75,
+											x: 0.01,
+											y: 2.3,
 											xref: 'paper',
 											yref: 'y',
-											text: 'Binary baseline',
+											text: 'Binary baseline = 1.00',
 											showarrow: false,
 											font: {
 												size: 16,
+												color: '#111',
+											},
+										},
+									],
+								},
+							},
+							duration: {
+								listTitle: 'Browser duration',
+								title: 'Browser duration, last version',
+								yLabel: 'Duration, milliseconds',
+								description:
+									'Comparison with "Binary" baseline, lower is better',
+								charts: [
+									{ type: 'bar', group: 'safari', mapper: 'durationMapper' },
+									{ type: 'bar', group: 'chrome', mapper: 'durationMapper' },
+									{ type: 'bar', group: 'firefox', mapper: 'durationMapper' },
+									{ type: 'bar', group: 'edge', mapper: 'durationMapper' },
+									{ type: 'bar', group: 'arc', mapper: 'durationMapper' },
+								],
+								layout: {
+									autosize: true,
+									shapes: [
+										{
+											type: 'line',
+											x0: 0,
+											y0: 19.9,
+											x1: 1,
+											y1: 19.9,
+											xref: 'paper',
+											yref: 'y',
+											line: {
+												color: 'black',
+												width: 2,
+												dash: 'dash',
+											},
+										},
+									],
+									annotations: [
+										{
+											x: 0.01,
+											y: 45,
+											xref: 'paper',
+											yref: 'y',
+											text: 'Binary baseline = 19.9 ms',
+											showarrow: false,
+											font: {
+												size: 16,
+												color: '#111',
 											},
 										},
 									],
@@ -162,34 +209,17 @@ export const App = () => {
 									{ type: 'bar', group: 'arc', mapper: 'memoryMapper' },
 								],
 								layout: {
-									height: 512,
 									autosize: true,
 									yaxis: { type: 'log' },
 								},
 							},
 						}}
 						mappers={{
-							scaleMapper: (data: unknown[], group: string) => {
-								const groupedByEngine = groupBy(data, 'engine');
-								const subSet = groupedByEngine[group];
-								const groupedByName = groupBy(subSet, 'name');
-								const x = Object.keys(groupedByName);
-								const y = x.map((key) =>
-									round(last(map(groupedByName[key], 'scale') as number[]), 2),
-								);
-								return { x, y };
-							},
-							memoryMapper: (data: unknown[], group: string) => {
-								const groupedByEngine = groupBy(data, 'engine');
-								const subSet = groupedByEngine[group];
-								const groupedByName = groupBy(subSet, 'name');
-								const x = Object.keys(groupedByName);
-								const y = x.map((key) =>
-									round(last(map(groupedByName[key], 'alloc')) / 1024, 2),
-								);
-								return { x, y };
-							},
+							scaleMapper,
+							memoryMapper,
+							durationMapper,
 						}}
+						height={350}
 					/>
 				</div>
 			</div>
@@ -219,4 +249,62 @@ function dtGridTransformData(data: WasmBrowserBenchmarkEntry[]) {
 		row.name = nameFormatterMap[row.name];
 		return row;
 	});
+}
+
+// Utility function for processing grouped data
+function processData(
+	data: WasmBrowserBenchmarkEntry[],
+	groupKey: string,
+	valueKey: 'scale' | 'alloc' | 'duration',
+	transformFn: (value: number) => number,
+): { x: string[]; y: number[] } {
+	const groupedData = _.chain(data)
+		.groupBy('engine') // Group by 'engine'
+		.get(groupKey) // Limit to the specified group
+		.groupBy('name'); // Further group by 'name'
+
+	const x = groupedData.keys().value() as string[]; // Extract names as x axis
+	const y = groupedData
+		.mapValues((values) => transformFn(_.last(_.map(values, valueKey)) || 0)) // Transform the value using the provided function
+		.values()
+		.value() as number[]; // Collect transformed y-axis values
+
+	return { x, y };
+}
+
+// Reuse of the utility function for both 'memoryMapper' and 'scaleMapper'
+function memoryMapper(
+	data: WasmBrowserBenchmarkEntry[],
+	groupKey: string,
+): { x: string[]; y: number[] } {
+	return processData(
+		data,
+		groupKey,
+		'alloc', // Use 'alloc' key
+		(value) => _.round(value / 1024, 2), // Convert bytes to KiB
+	);
+}
+
+function scaleMapper(
+	data: WasmBrowserBenchmarkEntry[],
+	groupKey: string,
+): { x: string[]; y: number[] } {
+	return processData(
+		data,
+		groupKey,
+		'scale', // Use 'scale' key
+		(value) => _.round(value, 2), // Round to 2 decimal places
+	);
+}
+
+function durationMapper(
+	data: WasmBrowserBenchmarkEntry[],
+	groupKey: string,
+): { x: string[]; y: number[] } {
+	return processData(
+		data,
+		groupKey,
+		'duration',
+		(value) => _.round(value, 2), // Round to 2 decimal places
+	);
 }
